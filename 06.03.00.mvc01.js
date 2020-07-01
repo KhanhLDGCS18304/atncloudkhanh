@@ -1,9 +1,9 @@
-const express = require('express')
-const app = express()
+const express = require('express');
+const app = express();
 const PORT = (process.env.PORT || 3000);
 var path = require('path');
 var router = express.Router();  
-var session = require('express-session')
+var session = require('express-session');
 
 var sess = {
     secret: 'nntu adtekdev',
